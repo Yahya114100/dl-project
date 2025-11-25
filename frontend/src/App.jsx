@@ -98,7 +98,7 @@ export default function App() {
           <p className="text-slate-400 text-lg">AI-powered chest X-ray analysis</p>
         </div>
 
-        <div className="bg-slate-800 border border-slate-700 shadow-2xl rounded-lg p-8">
+        <div className="bg-slate-800 border border-slate-700 shadow-2xl rounded-lg p-8">   
           {error && (
             <div className="mb-6 bg-red-900/30 border border-red-700/50 rounded-lg p-4 flex gap-3">
               <svg
