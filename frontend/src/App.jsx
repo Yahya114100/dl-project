@@ -48,7 +48,19 @@ export default function App() {
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex items-center justify-center p-4 relative overflow-hidden">
+<main
+  className="min-h-screen bg-cover bg-center bg-no-repeat bg-fixed relative flex items-center justify-center p-4"
+  style={{
+    backgroundImage: "url('/background.png')",
+  }}
+>
+  {/* Dimming layer */}
+  <div className="absolute inset-0 bg-black/80"></div>
+
+  {/* Content */}
+  <div className="relative z-10">
+    {/* Your content here */}
+  </div>
       <div className="absolute inset-0 opacity-10 pointer-events-none">
         <svg viewBox="0 0 1200 800" className="w-full h-full" preserveAspectRatio="xMidYMid slice">
           <defs>
